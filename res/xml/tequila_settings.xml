@@ -29,6 +29,13 @@
         android:icon="@drawable/ic_btn"/>
 
     <Preference
+        android:key="network_fragment"
+        android:title="@string/tequila_settings_network"
+        android:summary="@string/tequila_settings_network_summary" 
+        android:fragment="com.tequila.settings.fragments.NetworkSettings"
+        android:icon="@drawable/ic_settings_network"/>
+
+    <Preference
         android:key="notifications_fragment"
         android:title="@string/tequila_settings_notifications"
         android:summary="@string/tequila_settings_notifications_summary" 
